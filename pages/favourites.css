@@ -1,0 +1,169 @@
+
+.favorites__title_1{
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+margin-top: 40px;
+margin-left: 20px;
+}
+
+.favorites__seasons {
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.favorites__seasons_label{
+    margin-right: 90px;
+    margin-left: 20px;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+width: 90px;
+height: 40px;
+display: flex;
+align-items: center;
+}
+.favorites__seasons_season{
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+
+.favorites__seasons_season:checked {
+    background: url(../img/PressedRadio.svg) no-repeat center top/cover;
+} 
+
+.favorites__grid {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+margin-right: 20px;
+margin-left: 20px;
+column-gap: 220px;
+margin-bottom:40px ;
+}
+
+@media (min-width: 600px) and (max-width: 1440px) { 
+    .favorites__grid {
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(4,auto);
+        justify-content: center;
+
+ }
+
+ }
+
+.favorites__container{
+    width: 550px;
+height: 555px;
+border: 1px solid #000;
+background: #FFF;
+margin-top: 40px;
+position: relative;
+}
+
+.favorites__container_title{
+    color: #000;
+font-family: Forum;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px; 200%
+letter-spacing: 2px;
+text-transform: capitalize;
+margin-top: 15px;
+margin-left: 20px;
+}
+
+.favorites__container_line{
+    height: 1px;
+    width: 61px;
+    background-color: #bd7210;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+.favorites__container_name{
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-weight: 700;
+line-height: 40px; /* 266.667% */
+letter-spacing: 2px;
+margin-left: 20px;
+text-transform: capitalize;
+}
+
+.favorites__container_by{
+    margin-left: 20px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;}
+
+.favorites__container_text{
+    margin-left: 20px;
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 40px; /* 266.667% */
+letter-spacing: 2px;
+text-transform: capitalize;
+width: 355px;
+margin-top: 20px;
+height: 320px;
+}
+
+.favorites__container_button{
+color: #0C0C0E;
+text-align: center;
+font-family: Inter;
+font-size: 10px;
+font-weight: 700;
+letter-spacing: 1px;
+width: 75px;
+height: 30px;
+margin-left: 20px;
+border-radius: 2px;
+border: 1px solid #0C0C0E;
+background-color: #fff;
+margin-top: 15px;
+}
+
+.favorites__container_button:hover{
+    background-color: #BB945F;
+    transition: 1s;
+}
+
+.favorites__container_button-own{
+    border: 1px solid #BB945F;
+    color: #BB945F;
+text-align: center;
+font-family: Inter;
+font-size: 10px;
+font-weight: 700;
+letter-spacing: 1px;
+width: 75px;
+height: 30px;
+margin-left: 20px;
+border-radius: 2px;
+background-color: #fff;
+margin-top: 15px;
+
+}
+
+.favorites__container_picture{
+margin-top: -235px;
+margin-left: 294px;
+width: 200px;
+height: 300px;
+position: absolute;
+}
