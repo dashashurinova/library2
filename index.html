@@ -61,12 +61,16 @@
             inside</p>
         <div class="about__photos">
             <button class="about__photos_carett_left"><img src="./img/Carret_Left.jpg" alt="left"></button>
-            <img class="about__photos_photo" src="/img/image 1.jpg" alt="girl">
+            <img class="about__photos_photo" id="pic1" src="/img/image 1.jpg" alt="girl">
             <button class="about__photos_carett_right"><img src="./img/Carret_Right.svg" alt="right"></button>
-            <img class="about__photos_photo about__photos_extra-photo" src="./img/image 2.jpg" alt="statue">
-            <img class="about__photos_photo about__photos_extra-photo" src="./img/image 3.jpg" alt="books">
-        </div>
+            <img class="about__photos_photo about__photos_extra-photo" id="pic2" src="./img/image 2.jpg" alt="statue">
+            <img class="about__photos_photo about__photos_extra-photo" id="pic3" src="./img/image 3.jpg" alt="books">
+            <!-- <img class="about__photos_photo about__photos_extra-photo inv_img" src="./img/image 4.jpg" alt="books">
+            <img class="about__photos_photo about__photos_extra-photo inv_img" src="./img/image 5.jpg" alt="books">
+       --> </div> 
         <div class="about__photos_button_slider">
+            <div class="about__photos_press-place"><button class="about__photos_button"></button></div>
+            <div class="about__photos_press-place"><button class="about__photos_button"></button></div>
             <div class="about__photos_press-place"><button class="about__photos_button"></button></div>
             <div class="about__photos_press-place"><button class="about__photos_button"></button></div>
             <div class="about__photos_press-place"><button class="about__photos_button"></button></div>
@@ -81,7 +85,7 @@
         <div class="h2__line"></div>
         <p class="favorites__title_1">Pick favorites of season</p>
         <div class="favorites__seasons">
-            <input type="radio" id="winter" name="season" value="winter" class="favorites__seasons_season" />
+            <input type="radio" id="winter" name="season" value="winter" class="favorites__seasons_season" checked />
             <label class="favorites__seasons_label" for="winter">Winter</label>
             <input type="radio" id="spring" name="season" value="spring" class="favorites__seasons_season" />
             <label class="favorites__seasons_label" for="spring">Spring</label>
@@ -102,7 +106,7 @@
                     faint
                     of heart.</div>
                 <button class="favorites__container_button">Buy</button>
-                <img class="favorites__container_picture" src="./img/book1.svg" alt="book1">
+                <img class="favorites__container_picture" src="./img/book11.jpg" alt="book1">
             </div>
             <div class="favorites__container">
                 <div class="favorites__container_title">Staff Picks</div>
@@ -113,30 +117,30 @@
                     Practical Magic? Look no further than here - where a woman recovering from a breakup moves to a
                     quaint town in upstate New York and befriends a beautiful witch.</div>
                 <button class="favorites__container_button">Buy</button>
-                <img class="favorites__container_picture" src="./img/book2.jpg" alt="book1">
+                <img class="favorites__container_picture" src="./img/book12.jpg" alt="book1">
             </div>
             <div class="favorites__container">
                 <div class="favorites__container_title">Staff Picks</div>
                 <div class="favorites__container_line"></div>
-                <div class="favorites__container_name">Dante: Poet of the Secular World</div>
+                <div class="favorites__container_name">DANTE: POET OF THE SECULAR WORLD</div>
                 <div class="favorites__container_by">By Erich Auerbach</div>
                 <div class="favorites__container_text">Auerbach's engaging book places the 'Comedy' within the tradition
                     of epic, tragedy, and philosophy in general, arguing for Dante's uniqueness as one who raised the
                     individual and his drama of soul into something of divine significance—an inspired introduction to
                     Dante's main themes.</div>
                 <button class="favorites__container_button">Buy</button>
-                <img class="favorites__container_picture" src="./img/book3.jpg" alt="book1">
+                <img class="favorites__container_picture" src="./img/book13.jpg" alt="book1">
             </div>
             <div class="favorites__container">
                 <div class="favorites__container_title">Staff Picks</div>
                 <div class="favorites__container_line"></div>
-                <div class="favorites__container_name">The Last Queen</div>
+                <div class="favorites__container_name" >THE LAST QUEEN</div>
                 <div class="favorites__container_by">By Clive Irving</div>
                 <div class="favorites__container_text">A timely and revelatory new biography of Queen Elizabeth (and her
                     family) exploring how the Windsors have evolved and thrived as the modern world has changed around
                     them.</div>
                 <button class="favorites__container_button-own" disabled>Own</button>
-                <img class="favorites__container_picture" src="./img/book4.jpg" alt="book1">
+                <img class="favorites__container_picture" src="./img/book14.jpg" alt="book1">
             </div>
         </div>
     </section>
@@ -280,14 +284,15 @@
         </div>
         <div class="footer__line"></div>
         <div class="footer__endblock">
-            <div class="footer__endblock_text">2023</div>
+            <div class="footer__endblock_text">2024</div>
             <a class="footer__endblock_text" href="https://rs.school/js-stage0/">The Rolling Scopes School</a>
             <div class="footer__endblock_text">©dashashurinova <a
                     href="https://github.com/rolling-scopes-school/dashashurinova-JSFEPRESCHOOL2023Q2.git"><br><u>GitHub</u></a>
             </div>
         </div>
     </footer>
-    <script>
+    <script src="./slider.js"></script>
+    <script type="module" src="./bestBooks.js"></script>
 
     </script>
 </body>
