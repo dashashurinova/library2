@@ -10,9 +10,9 @@ let timerId = setTimeout(function tick() {
     else{pags[dot-1].classList.remove('active_pag')}
     dot++
 
-    document.getElementById('pic1').src =`/img/image ${i1}.jpg`
-    document.getElementById('pic2').src =`/img/image ${i2}.jpg`
-    document.getElementById('pic3').src =`/img/image ${i3}.jpg`
+    document.getElementById('pic1').src =`/img/image${i1}.jpg`
+    document.getElementById('pic2').src =`/img/image${i2}.jpg`
+    document.getElementById('pic3').src =`/img/image${i3}.jpg`
     i1++
     i2++
     i3++
